@@ -1,5 +1,7 @@
 package src.core;
 
+import src.util.To;
+
 public class Application
 {
     private Input input;
@@ -15,5 +17,6 @@ public class Application
     public void start()
     {
         System.out.println("App iniciado!");
+        output.show();
     }
 }
